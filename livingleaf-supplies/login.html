@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - LivingLeaf Supplies</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><a href="./index.html">🌿 LivingLeaf Supplies</a></h1>
+                <p class="slogan">Bringing Life to Your Space</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shop.html">Shop Plants</a></li>
+                <li><a href="./cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li style="float:right"><a href="./login.html">Login</a></li>
+                <li style="float:right"><a href="./register.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="form-container">
+            <div class="form-header">
+                <h2>Welcome Back!</h2>
+                <p>Sign in to your account</p>
+            </div>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <div class="form-footer">
+                <p>Don't have an account? <a href="./register.html">Create one here</a>.</p>
+                <p class="demo-info">Demo: username: <strong>demo</strong>, password: <strong>demo123</strong></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="copyright">&copy; 2025 LivingLeaf Supplies. Ajani Sterling - 2406383.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
